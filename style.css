@@ -7,7 +7,7 @@
 html,
 body {
     height: 100%;
-    width: 100%;
+     idth: 100%;
     overflow-x: hidden;
 }
 
@@ -34,8 +34,51 @@ body {
     background: red;
 }
 
-.nav-container img{
+.nav-container img {
     width: 25px;
     height: 25px;
     object-fit: cover;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(9, 255, 0), rgb (255, 94, 0));
+}
+
+.hero h1 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#fanta{
+    /*'Poosition absolute': permite que ele seja absoluto e não respeita a espaçamento. Faz ela se mover para onde está indicado, o que faz a "animação" */
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
+
+#orange-cut{
+    /*'Poosition absolute': permite que ele seja absoluto e não respeita a espaçamento. Faz ela se mover para onde está indicado, o que faz a "animação" */
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 32%;
+    z-index: 2;
+}
+
+#orange{
+    position: absolute;
+    width: 20%;
+    z-index: 3;
+    top: 55%;
+    right: 30%; 
+}
+
+
+.hero img {
+    width: 50px;
 }
