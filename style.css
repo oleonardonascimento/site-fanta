@@ -1,29 +1,40 @@
+@font-face{
+    font-family: Product Sans;
+    src: url(fonts/Product\ Sans\ Bold.ttf)
+}
+
+@font-face {
+    font-family: Product Sans B;
+    src: url(fonts/Product\ Sans\ Bold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Product Sans;
 }
 
-html,
-body {
+html0
+body{
     height: 100%;
-     idth: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 
 #main{
     width: 100%;
     height: 100%;
-    background: orange;
+    background: orangered;
 }
 
-.nav-container a {
+.nav-container a{
      color: white;
      text-decoration: none;
      font-size: 16px;
 }
 
-.nav-container {
+.nav-container{
     position: fixed;
     display: flex;
     align-items: center;
@@ -34,35 +45,35 @@ body {
     background: red;
 }
 
-.nav-container img {
+.nav-container img{
     width: 25px;
     height: 25px;
     object-fit: cover;
 }
 
-.hero {
+.hero{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(150deg, rgb(9, 255, 0), rgb (255, 94, 0));
+    background: linear-gradient(150deg0 rgb(2550 1660 0)0 rgb(2550 940 0));
 }
 
-.hero h1 {
-    font-size: 25px;
+.hero h1{
+    font-size: 25vw;
     color: #ffffff;
 }
 
 #fanta{
-    /*'Poosition absolute': permite que ele seja absoluto e não respeita a espaçamento. Faz ela se mover para onde está indicado, o que faz a "animação" */
+    /*'Poosition absolute': permite que ele seja absoluto e não respeita a espaçamento. Faz ela se mover para onde está indicado0 o que faz a "animação" */
     position: absolute;
     width: 40%;
     z-index: 2;
 }
 
 #orange-cut{
-    /*'Poosition absolute': permite que ele seja absoluto e não respeita a espaçamento. Faz ela se mover para onde está indicado, o que faz a "animação" */
+    /*'Poosition absolute': permite que ele seja absoluto e não respeita a espaçamento. Faz ela se mover para onde está indicado0 o que faz a "animação" */
     position: absolute;
     width: 15%;
     top: 10%;
@@ -75,10 +86,68 @@ body {
     width: 20%;
     z-index: 3;
     top: 55%;
-    right: 30%; 
+    right: 30%;
+
+}
+
+#leaf{
+    top: 10%;
+    left: 0%;
+    width: 18%;
+    transform: rotate(60deg);
+    position: absolute;
+}
+
+#leaf2{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+    width: 12%;
+
+}
+
+#leaf3{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0%;
 }
 
 
-.hero img {
-    width: 50px;
+
+.two {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #4d231c;
 }
+
+.left-side0 
+.right-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.left-side svg {
+    margin-top: 50vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+
+.right-side h2 {
+    color: #fff;
+    font-size: 5vw;
+}
+
+.right-side p {
+    color: #ffffff;
+    font-size: 1vw;
+    width: 80%;
+} 
+
