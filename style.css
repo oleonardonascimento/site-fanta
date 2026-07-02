@@ -46,7 +46,6 @@ body{
     width: 100%;
     height: 10vh;
     z-index: 99;
-    background: red;
 }
 
 .nav-container img{
@@ -67,6 +66,7 @@ body{
 .hero h1{
     font-size: 25vw;
     color: #ffffff;
+    padding-left: 13vw;
 }
 
 #fanta{
@@ -209,7 +209,7 @@ body{
 #pepsi {
     position: absolute;
     top: -15%;
-    width: 85%;
+    width: 80%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
