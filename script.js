@@ -34,3 +34,29 @@ tl.to(
     'orange'
     // Name that's animation's session with 'orange' for sync
 );
+
+
+
+tl.to(
+    '#orange',
+    {
+        width: '15%', // Move the element with id fanta for 120% to top
+        top: '170%', //
+        right:'10%',
+    },
+    'orange'
+    // Name that's animation's session with 'orange' for sync
+);
+
+
+
+tl.to(
+    '#leaf1',
+    {
+        top: '210%', // Move the element with id fanta for 120% to top
+        rotate: '130deg', //
+        left:'70%',
+    },
+    'orange'
+    // Name that's animation's session with 'orange' for sync
+);
