@@ -10,7 +10,7 @@ var tl = gsap.timeline ({
         end: '70% 50%',
         scrub: true,
         // Depuration
-        markers: true, 
+        markers: false, 
     },
 });
 
@@ -82,7 +82,7 @@ var tl2 = gsap.timeline ({
         end: '20% 50%',
         scrub: true,
         // Depuration
-        markers: true, 
+        markers: false, 
     },
 });
 
